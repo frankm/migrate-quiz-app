@@ -6,11 +6,15 @@ import XCTest
 
 class ScoreTest: XCTestCase {
     func test_noAnswers_scoresZero() {
-        XCTAssertEqual(BigScore.score(for: []), 0)
+        XCTAssertEqual(BigScore.score(for: [], comparingTo: []), 0)
+    }
+
+    func test_oneWrongAnswer_scoresZero() {
+        XCTAssertEqual(BigScore.score(for: ["wrong"], comparingTo: ["correct"]), 0)
     }
 
     private class BigScore {
-        static func score(for: [Any]) -> Int {
+        static func score(for: [Any], comparingTo: [Any]) -> Int {
             return 0
         }
     }

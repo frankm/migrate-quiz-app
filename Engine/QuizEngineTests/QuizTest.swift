@@ -38,10 +38,6 @@ class QuizTest: XCTestCase {
         assetEqual(delegate.completedQuizzes[1], [("Q1", "A1-1"), ("Q2", "A2-2")])
     }
 
-    private func assetEqual(_ a1: [(String, String)], _ a2: [(String, String)], file: StaticString = #filePath, line: UInt = #line) {
-        XCTAssertTrue(a1.elementsEqual(a2, by: ==), "\(a1) is not equal to \(a2)", file: file, line: line)
-    }
-
     private class DelegateSpy: QuizDelegate {
         var completedQuizzes = [[(String, String)]]()
 

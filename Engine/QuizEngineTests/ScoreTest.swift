@@ -17,10 +17,18 @@ class ScoreTest: XCTestCase {
         XCTAssertEqual(BigScore.score(for: ["correct"], comparingTo: ["correct"]), 1)
     }
 
+    func test_oneCorrectAnswerOneWrongAnswer_scoresOne() {
+        let score = BigScore.score(for: ["correct", "wrong"], comparingTo: ["correct", "correct"])
+        XCTAssertEqual(score, 1)
+    }
+
     private class BigScore {
         static func score(for answers: [String], comparingTo correctAnswers: [String]) -> Int {
-            if answers.isEmpty { return 0 }
-            return answers == correctAnswers ? 1 : 0
+            var score = 0
+            for (index, answer) in answers.enumerated() {
+                score += (answer == correctAnswers[index] ? 1 : 0)
+            }
+            return score
         }
     }
 }

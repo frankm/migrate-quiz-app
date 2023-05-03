@@ -9,28 +9,32 @@ class ScoreTest: XCTestCase {
         XCTAssertEqual(BigScore.score(for: [], comparingTo: []), 0)
     }
 
-    func test_oneWrongAnswer_scoresZero() {
-        XCTAssertEqual(BigScore.score(for: ["wrong"], comparingTo: ["correct"]), 0)
+    func test_oneNonMatchingAnswer_scoresZero() {
+        XCTAssertEqual(BigScore.score(for: ["not a match"], comparingTo: ["an answer"]), 0)
     }
 
-    func test_oneCorrectAnswer_scoresOne() {
-        XCTAssertEqual(BigScore.score(for: ["correct"], comparingTo: ["correct"]), 1)
+    func test_oneMatchingAnswer_scoresOne() {
+        XCTAssertEqual(BigScore.score(for: ["an answer"], comparingTo: ["an answer"]), 1)
     }
 
-    func test_oneCorrectAnswerOneWrongAnswer_scoresOne() {
-        let score = BigScore.score(for: ["correct", "wrong"], comparingTo: ["correct", "correct"])
+    func test_oneMatchingAnswerOneNonMatchingAnswer_scoresOne() {
+        let score = BigScore.score(
+            for: ["an answer", "not a match"],
+            comparingTo: ["an answer", "another answer"])
         XCTAssertEqual(score, 1)
     }
 
-    func test_twoCorrectAnswers_scoresTwo() {
-        let score = BigScore.score(for: ["correct", "correct"], comparingTo: ["correct", "correct"])
+    func test_twoMatchingAnswers_scoresTwo() {
+        let score = BigScore.score(
+            for: ["an answer", "an answer"],
+            comparingTo: ["an answer", "an answer"])
         XCTAssertEqual(score, 2)
     }
 
-    func test_withUneqaulSizedData_twoCorrectAnswers_scoresTwo() {
+    func test_withTooManyAnswers_twoMatchingAnswers_scoresTwo() {
         let score = BigScore.score(
-            for: ["correct", "correct", "an extra answer"],
-            comparingTo: ["correct", "correct"])
+            for: ["an answer", "another answer", "an extra answer"],
+            comparingTo: ["an answer", "another answer"])
         XCTAssertEqual(score, 2)
     }
 

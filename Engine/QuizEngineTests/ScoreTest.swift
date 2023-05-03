@@ -22,6 +22,11 @@ class ScoreTest: XCTestCase {
         XCTAssertEqual(score, 1)
     }
 
+    func test_twoCorrectAnswers_scoresTwo() {
+        let score = BigScore.score(for: ["correct", "correct"], comparingTo: ["correct", "correct"])
+        XCTAssertEqual(score, 2)
+    }
+
     private class BigScore {
         static func score(for answers: [String], comparingTo correctAnswers: [String]) -> Int {
             var score = 0

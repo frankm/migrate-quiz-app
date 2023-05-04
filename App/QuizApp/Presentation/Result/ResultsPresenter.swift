@@ -2,7 +2,6 @@
 //  Copyright © 2017 Essential Developer. All rights reserved.
 //
 
-import Foundation
 import QuizEngine
 
 final class ResultsPresenter {
@@ -12,6 +11,12 @@ final class ResultsPresenter {
     private let userAnswers: Answers
     private let correctAnswers: Answers
     private let scorer: Scorer
+
+    init(userAnswers: Answers, correctAnswers: Answers, scorer: @escaping Scorer) {
+        self.userAnswers = userAnswers
+        self.correctAnswers = correctAnswers
+        self.scorer = scorer
+    }
 
     init(result: Result<Question<String>, [String]>, questions: [Question<String>], correctAnswers: Dictionary<Question<String>, [String]>) {
         self.userAnswers = questions.map { question in

@@ -22,6 +22,8 @@
 		190F3A6F2A0211B500955351 /* Assertions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190F3A6E2A0211B500955351 /* Assertions.swift */; };
 		190F3A712A0212F800955351 /* DelegateSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190F3A702A0212F800955351 /* DelegateSpy.swift */; };
 		190F3A732A02F56C00955351 /* ScoreTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190F3A722A02F56C00955351 /* ScoreTest.swift */; };
+		190F3A7A2A0363C900955351 /* QuizDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F0C3F92A00930700A310EC /* QuizDelegate.swift */; };
+		190F3A7B2A03658300955351 /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F0C3FD2A00B4CA00A310EC /* Quiz.swift */; };
 		19F0C3FA2A00930700A310EC /* QuizDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F0C3F92A00930700A310EC /* QuizDelegate.swift */; };
 		19F0C3FC2A00A68900A310EC /* QuizTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F0C3FB2A00A68900A310EC /* QuizTest.swift */; };
 		19F0C3FE2A00B4CA00A310EC /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F0C3FD2A00B4CA00A310EC /* Quiz.swift */; };
@@ -352,6 +354,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				088F0BC91E69B7B80078C62D /* Question.swift in Sources */,
+				190F3A7B2A03658300955351 /* Quiz.swift in Sources */,
+				190F3A7A2A0363C900955351 /* QuizDelegate.swift in Sources */,
 				08CB6D9B1E67296A003D96A9 /* Flow.swift in Sources */,
 				08CB6D9E1E67296A003D96A9 /* DeprecatedGame.swift in Sources */,
 			);

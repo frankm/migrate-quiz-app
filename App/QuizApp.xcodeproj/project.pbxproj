@@ -119,9 +119,7 @@
 		0859016D1E69D30C0010165E /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				0859016E1E69D30C0010165E /* Helpers */,
-				085901701E69D30C0010165E /* Question */,
-				085901721E69D30C0010165E /* Result */,
+				1914D4912A092ABE00200981 /* UIKit */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -250,9 +248,7 @@
 		088F0BE21E69D2350078C62D /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				088F0BE31E69D2350078C62D /* Helpers */,
-				088F0BE51E69D2350078C62D /* Question */,
-				088F0BE81E69D2350078C62D /* Result */,
+				1914D4902A092A3000200981 /* UIKit */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -352,6 +348,26 @@
 				190F3A842A036EB600955351 /* BasicScore.swift */,
 			);
 			path = Scoring;
+			sourceTree = "<group>";
+		};
+		1914D4902A092A3000200981 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				088F0BE31E69D2350078C62D /* Helpers */,
+				088F0BE51E69D2350078C62D /* Question */,
+				088F0BE81E69D2350078C62D /* Result */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		1914D4912A092ABE00200981 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				0859016E1E69D30C0010165E /* Helpers */,
+				085901701E69D30C0010165E /* Question */,
+				085901721E69D30C0010165E /* Result */,
+			);
+			path = UIKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

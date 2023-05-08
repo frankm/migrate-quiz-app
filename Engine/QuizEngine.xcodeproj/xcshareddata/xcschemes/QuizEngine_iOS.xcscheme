@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "088687311E64729700A19B60"
-               BuildableName = "QuizApp.app"
-               BlueprintName = "QuizApp"
-               ReferencedContainer = "container:QuizApp.xcodeproj">
+               BlueprintIdentifier = "08CB6D7D1E672907003D96A9"
+               BuildableName = "QuizEngine_iOS.framework"
+               BlueprintName = "QuizEngine_iOS"
+               ReferencedContainer = "container:QuizEngine.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -27,26 +27,7 @@
       selectedDebuggerIdentifier = ""
       selectedLauncherIdentifier = "Xcode.IDEFoundation.Launcher.PosixSpawn"
       shouldUseLaunchSchemeArgsEnv = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "088687311E64729700A19B60"
-            BuildableName = "QuizApp.app"
-            BlueprintName = "QuizApp"
-            ReferencedContainer = "container:QuizApp.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "088687451E64729700A19B60"
-               BuildableName = "QuizAppTests.xctest"
-               BlueprintName = "QuizAppTests"
-               ReferencedContainer = "container:QuizApp.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
          <TestableReference
             skipped = "NO">
             <BuildableReference
@@ -54,7 +35,7 @@
                BlueprintIdentifier = "08CB6D851E672907003D96A9"
                BuildableName = "QuizEngine_iOSTests.xctest"
                BlueprintName = "QuizEngine_iOSTests"
-               ReferencedContainer = "container:../Engine/QuizEngine.xcodeproj">
+               ReferencedContainer = "container:QuizEngine.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -69,16 +50,6 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "088687311E64729700A19B60"
-            BuildableName = "QuizApp.app"
-            BlueprintName = "QuizApp"
-            ReferencedContainer = "container:QuizApp.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -86,16 +57,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "088687311E64729700A19B60"
-            BuildableName = "QuizApp.app"
-            BlueprintName = "QuizApp"
-            ReferencedContainer = "container:QuizApp.xcodeproj">
+            BlueprintIdentifier = "08CB6D7D1E672907003D96A9"
+            BuildableName = "QuizEngine_iOS.framework"
+            BlueprintName = "QuizEngine_iOS"
+            ReferencedContainer = "container:QuizEngine.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

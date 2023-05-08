@@ -11,8 +11,6 @@
 		086816541E571F88009359E4 /* FlowTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086816531E571F88009359E4 /* FlowTest.swift */; };
 		086816561E572137009359E4 /* Flow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086816551E572137009359E4 /* Flow.swift */; };
 		088F0BC81E69B7B80078C62D /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088F0BC71E69B7B80078C62D /* Question.swift */; };
-		08CB6D511E671581003D96A9 /* DeprecatedGameTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CB6D501E671581003D96A9 /* DeprecatedGameTest.swift */; };
-		08CB6D531E6716B3003D96A9 /* DeprecatedGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CB6D521E6716B3003D96A9 /* DeprecatedGame.swift */; };
 		190F3A6F2A0211B500955351 /* Assertions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190F3A6E2A0211B500955351 /* Assertions.swift */; };
 		190F3A712A0212F800955351 /* DelegateSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190F3A702A0212F800955351 /* DelegateSpy.swift */; };
 		190F3A732A02F56C00955351 /* ScoreTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190F3A722A02F56C00955351 /* ScoreTest.swift */; };
@@ -39,8 +37,6 @@
 		086816531E571F88009359E4 /* FlowTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlowTest.swift; sourceTree = "<group>"; };
 		086816551E572137009359E4 /* Flow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flow.swift; sourceTree = "<group>"; };
 		088F0BC71E69B7B80078C62D /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
-		08CB6D501E671581003D96A9 /* DeprecatedGameTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeprecatedGameTest.swift; sourceTree = "<group>"; };
-		08CB6D521E6716B3003D96A9 /* DeprecatedGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeprecatedGame.swift; sourceTree = "<group>"; };
 		190F3A6E2A0211B500955351 /* Assertions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assertions.swift; sourceTree = "<group>"; };
 		190F3A702A0212F800955351 /* DelegateSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegateSpy.swift; sourceTree = "<group>"; };
 		190F3A722A02F56C00955351 /* ScoreTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreTest.swift; sourceTree = "<group>"; };
@@ -95,7 +91,6 @@
 				19F0C3F92A00930700A310EC /* QuizDelegate.swift */,
 				19F0C3FD2A00B4CA00A310EC /* Quiz.swift */,
 				088F0BC71E69B7B80078C62D /* Question.swift */,
-				08CB6D521E6716B3003D96A9 /* DeprecatedGame.swift */,
 			);
 			path = QuizEngine;
 			sourceTree = "<group>";
@@ -108,7 +103,6 @@
 				190F3A722A02F56C00955351 /* ScoreTest.swift */,
 				190F3A702A0212F800955351 /* DelegateSpy.swift */,
 				190F3A6E2A0211B500955351 /* Assertions.swift */,
-				08CB6D501E671581003D96A9 /* DeprecatedGameTest.swift */,
 				19F0C3FB2A00A68900A310EC /* QuizTest.swift */,
 			);
 			path = QuizEngineTests;
@@ -236,7 +230,6 @@
 				088F0BC81E69B7B80078C62D /* Question.swift in Sources */,
 				19F0C3FE2A00B4CA00A310EC /* Quiz.swift in Sources */,
 				086816561E572137009359E4 /* Flow.swift in Sources */,
-				08CB6D531E6716B3003D96A9 /* DeprecatedGame.swift in Sources */,
 				19F0C3FA2A00930700A310EC /* QuizDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -247,7 +240,6 @@
 			files = (
 				190F3A732A02F56C00955351 /* ScoreTest.swift in Sources */,
 				086816541E571F88009359E4 /* FlowTest.swift in Sources */,
-				08CB6D511E671581003D96A9 /* DeprecatedGameTest.swift in Sources */,
 				190F3A6F2A0211B500955351 /* Assertions.swift in Sources */,
 				19F0C3FC2A00A68900A310EC /* QuizTest.swift in Sources */,
 				190F3A712A0212F800955351 /* DelegateSpy.swift in Sources */,

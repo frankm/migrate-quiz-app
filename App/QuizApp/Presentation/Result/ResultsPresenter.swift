@@ -2,7 +2,6 @@
 //  Copyright © 2017 Essential Developer. All rights reserved.
 //
 
-import Foundation
 import QuizEngine
 
 final class ResultsPresenter {

@@ -4,7 +4,7 @@
 <p><img src="https://static1.squarespace.com/static/5891c5b8d1758ec68ef5dbc2/t/5df2343b3cb1bf67730d06fa/1576155468977/professional_ios_engineering_series.png?format=500w" alt="Professional iOS Engineering Series"></p>
 </div>
 
-![CI](https://github.com/essentialdevelopercom/quiz-app/workflows/CI/badge.svg)
+[![CI](https://github.com/frankm/migrate-quiz-app/actions/workflows/CI.yml/badge.svg)](https://github.com/frankm/migrate-quiz-app/actions/workflows/CI.yml)
 
 This is the repository for the project developed by Caio and Mike in the [Professional iOS Engineering Series](https://www.essentialdeveloper.com/professional-ios-engineering-series) on YouTube.
 
